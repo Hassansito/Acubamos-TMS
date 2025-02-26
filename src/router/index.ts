@@ -368,7 +368,9 @@ const routes: Array<RouteRecordRaw> = [
         path: "/administracion/nomencladores/transfer/tipodetrasnporte",
         name: "administracion-tipodetrasnporte",
         component: () =>
-          import("@/views/administracion/nomencladores/transfer/ttrasnporte.vue"),
+          import(
+            "@/views/administracion/nomencladores/transfer/ttrasnporte.vue"
+          ),
         meta: {
           pageTitle: "Tipo de trasnporte",
           breadcrumbs: ["administracion", "Transfer", "Tipo de trasnporte"],
@@ -394,7 +396,7 @@ const routes: Array<RouteRecordRaw> = [
           breadcrumbs: ["administracion", "Transfer", "Tipo de pago"],
         },
       },
-      
+
       /*Fin*/
       {
         path: "/apps/sales/orderlisting",
