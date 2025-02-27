@@ -696,6 +696,27 @@ const routes: Array<RouteRecordRaw> = [
           breadcrumbs: ["Crafted", "Widgets"],
         },
       },
+      /*TODO LO DE TERRESTRE*/
+      {
+        path: "/comercializacion/pedidos/listorderT",
+        name: "comercializacion-pedidos-listorderT",
+        component: () =>
+          import("@/views/terrestre/pedidos/ListReservations.vue"),
+        meta: {
+          pageTitle: "Pedidos",
+          breadcrumbs: ["Comercialización", "Pedidos", "Lista de Pedidos"],
+        },
+      },
+      {
+        path: "/comercializacion/pedidos/addorderT",
+        name: "comercializacion-pedidos-addorderT",
+        component: () =>
+          import("@/views/terrestre/pedidos/AddReservation.vue"),
+        meta: {
+          pageTitle: "Crear pedido",
+          breadcrumbs: ["Comercialización", "Pedidos", "Crear Pedido"],
+        },
+      },
     ],
   },
   {

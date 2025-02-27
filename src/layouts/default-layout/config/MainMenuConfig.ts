@@ -26,7 +26,7 @@ export default function useDynamicMenu() {
           route: "/adminintracion",
           pages: [
             {
-              sectionTitle: "nomencladores",
+              sectionTitle: "Nomencladores",
               route: "/nomencladores",
               keenthemesIcon: "element-plus",
               bootstrapIcon: "bi-archive",
@@ -54,34 +54,42 @@ export default function useDynamicMenu() {
           route: "/comercializacion",
           pages: [
             {
-              heading: "reservar",
-              route: "/comercializacion/reservar",
+              sectionTitle: "Pedidos",
+              route: "/comercializacion/pedidos",
               keenthemesIcon: "fingerprint-scanning",
               bootstrapIcon: "bi-sticky",
+              sub: [
+                {
+                  heading: "lista de pedidios",
+                  route: "/comercializacion/pedidos/listorderT",
+                },
+                {
+                  heading: "crear pedidos",
+                  route: "/comercializacion/pedidos/addorderT",
+                },
+              ],
             },
             {
-              heading: "reservas",
-              route: "/comercializacion/reservas",
+              heading: "Contratos",
+              route: "/comercializacion/contratos",
               keenthemesIcon: "fingerprint-scanning",
-              bootstrapIcon: "bi-sticky",
+              bootstrapIcon: "bi-sticky",             
             },
             {
-              heading: "hoteles",
-              route: "/comercializacion/hoteles",
-              keenthemesIcon: "fingerprint-scanning",
-              bootstrapIcon: "bi-sticky",
-            },
-            {
-              heading: "ofertas",
+              sectionTitle: "Ofertas",
               route: "/comercializacion/ofertas",
               keenthemesIcon: "fingerprint-scanning",
               bootstrapIcon: "bi-sticky",
-            },
-            {
-              heading: "productos",
-              route: "/comercializacion/productos",
-              keenthemesIcon: "fingerprint-scanning",
-              bootstrapIcon: "bi-sticky",
+              sub: [
+                {
+                  heading: "Lista de ofertas",
+                  route: "/comercializacion/ofertas/listofferT",
+                },
+                {
+                  heading: "Crear ofertas",
+                  route: "/comercializacion/ofertas/addofferT",
+                },
+              ],
             },
             {
               heading: "calendarApp",
@@ -92,24 +100,24 @@ export default function useDynamicMenu() {
           ],
         },
         /*               Configuración            */
-        {
-          heading: "Configuración",
-          route: "/configuracion",
-          pages: [
-            {
-              heading: "edades",
-              route: "/configuracion/hoteles/edades",
-              keenthemesIcon: "fingerprint-scanning",
-              bootstrapIcon: "bi-sticky",
-            },
-            {
-              heading: "planes alimenticios",
-              route: "/configuracion/hoteles/planes",
-              keenthemesIcon: "fingerprint-scanning",
-              bootstrapIcon: "bi-sticky",
-            },
-          ],
-        },
+        // {
+        //   heading: "Configuración",
+        //   route: "/configuracion",
+        //   pages: [
+        //     {
+        //       heading: "edades",
+        //       route: "/configuracion/hoteles/edades",
+        //       keenthemesIcon: "fingerprint-scanning",
+        //       bootstrapIcon: "bi-sticky",
+        //     },
+        //     {
+        //       heading: "planes alimenticios",
+        //       route: "/configuracion/hoteles/planes",
+        //       keenthemesIcon: "fingerprint-scanning",
+        //       bootstrapIcon: "bi-sticky",
+        //     },
+        //   ],
+        // },
       ];
 
       /*                     TRANSFER                     */
