@@ -701,7 +701,7 @@ const routes: Array<RouteRecordRaw> = [
         path: "/comercializacion/pedidos/listorderT",
         name: "comercializacion-pedidos-listorderT",
         component: () =>
-          import("@/views/terrestre/pedidos/ListReservations.vue"),
+          import("@/views/terrestre/pedidos/ListPedido.vue"),
         meta: {
           pageTitle: "Pedidos",
           breadcrumbs: ["Comercialización", "Pedidos", "Lista de Pedidos"],
@@ -711,10 +711,30 @@ const routes: Array<RouteRecordRaw> = [
         path: "/comercializacion/pedidos/addorderT",
         name: "comercializacion-pedidos-addorderT",
         component: () =>
-          import("@/views/terrestre/pedidos/AddReservation.vue"),
+          import("@/views/terrestre/pedidos/AddPedido.vue"),
         meta: {
           pageTitle: "Crear pedido",
           breadcrumbs: ["Comercialización", "Pedidos", "Crear Pedido"],
+        },
+      },
+      {
+        path: "/comercializacion/contratos/addcontratos",
+        name: "comercializacion-contratos-addcontratos",
+        component: () =>
+          import("@/views/terrestre/contratos/AddContrato.vue"),
+        meta: {
+          pageTitle: "Crear contratos",
+          breadcrumbs: ["Comercialización", "contratos", "Crear Contrato"],
+        },
+      },
+      {
+        path: "/comercializacion/contratos/listcontratos",
+        name: "comercializacion-contratos-listcontratos",
+        component: () =>
+          import("@/views/terrestre/contratos/ListContratos.vue"),
+        meta: {
+          pageTitle: "Lista de contratos",
+          breadcrumbs: ["Comercialización", "contratos", "Lista de Contrato"],
         },
       },
     ],

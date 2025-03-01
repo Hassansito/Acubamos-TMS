@@ -4,7 +4,7 @@
             <div class="d-flex align-items-center position-relative my-1">
                 <KTIcon icon-name="magnifier" icon-class="fs-1 position-absolute ms-6" />
                 <input type="text" v-model="search" @input="searchItems()"
-                    class="form-control form-control-solid w-250px ps-15" placeholder="Buscar Reserva" />
+                    class="form-control form-control-solid w-250px ps-15" placeholder="Buscar Pedido" />
             </div>
             <div class="card-toolbar">
                 <div v-if="selectedIds.length === 0" class="d-flex justify-content-end"

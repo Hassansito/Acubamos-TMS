@@ -60,20 +60,30 @@ export default function useDynamicMenu() {
               bootstrapIcon: "bi-sticky",
               sub: [
                 {
-                  heading: "lista de pedidios",
+                  heading: "Lista de pedidios",
                   route: "/comercializacion/pedidos/listorderT",
                 },
                 {
-                  heading: "crear pedidos",
+                  heading: "Crear pedidos",
                   route: "/comercializacion/pedidos/addorderT",
                 },
               ],
             },
             {
-              heading: "Contratos",
+              sectionTitle: "Contratos",
               route: "/comercializacion/contratos",
               keenthemesIcon: "fingerprint-scanning",
-              bootstrapIcon: "bi-sticky",             
+              bootstrapIcon: "bi-sticky",
+              sub: [
+                {
+                  heading: "Lista de contratos",
+                  route: "/comercializacion/contratos/listcontratos",
+                },
+                {
+                  heading: "Crear contratos",
+                  route: "/comercializacion/contratos/addcontratos",
+                },
+              ],             
             },
             {
               sectionTitle: "Ofertas",

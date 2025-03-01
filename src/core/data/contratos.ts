@@ -1,0 +1,173 @@
+interface IContratos {
+  id: number;
+  cliente: string;
+  fechaI: string;
+  fechaF: string;
+  correo: string;
+  contrato: string;
+}
+const contratos: Array<IContratos> = [
+  {
+    id: 1,
+    cliente: "Cliente A",
+    fechaI: "2023-10-01",
+    fechaF: "2023-12-31",
+    correo: "clienteA@example.com",
+    contrato: "https://example.com/documentos/contrato1.pdf",
+  },
+  {
+    id: 2,
+    cliente: "Cliente B",
+    fechaI: "2023-09-15",
+    fechaF: "2023-11-30",
+    correo: "clienteB@example.com",
+    contrato: "https://example.com/documentos/contrato2.pdf",
+  },
+  {
+    id: 3,
+    cliente: "Cliente C",
+    fechaI: "2023-08-20",
+    fechaF: "2023-10-20",
+    correo: "clienteC@example.com",
+    contrato: "https://example.com/documentos/contrato3.docx",
+  },
+  {
+    id: 4,
+    cliente: "Cliente D",
+    fechaI: "2023-07-10",
+    fechaF: "2023-09-10",
+    correo: "clienteD@example.com",
+    contrato: "https://example.com/documentos/contrato4.pdf",
+  },
+  {
+    id: 5,
+    cliente: "Cliente E",
+    fechaI: "2023-06-05",
+    fechaF: "2023-08-05",
+    correo: "clienteE@example.com",
+    contrato: "https://example.com/documentos/contrato5.docx",
+  },
+  {
+    id: 6,
+    cliente: "Cliente F",
+    fechaI: "2023-05-01",
+    fechaF: "2023-07-01",
+    correo: "clienteF@example.com",
+    contrato: "https://example.com/documentos/contrato6.pdf",
+  },
+  {
+    id: 7,
+    cliente: "Cliente G",
+    fechaI: "2023-04-15",
+    fechaF: "2023-06-15",
+    correo: "clienteG@example.com",
+    contrato: "https://example.com/documentos/contrato7.docx",
+  },
+  {
+    id: 8,
+    cliente: "Cliente H",
+    fechaI: "2023-03-10",
+    fechaF: "2023-05-10",
+    correo: "clienteH@example.com",
+    contrato: "https://example.com/documentos/contrato8.pdf",
+  },
+  {
+    id: 9,
+    cliente: "Cliente I",
+    fechaI: "2023-02-05",
+    fechaF: "2023-04-05",
+    correo: "clienteI@example.com",
+    contrato: "https://example.com/documentos/contrato9.docx",
+  },
+  {
+    id: 10,
+    cliente: "Cliente J",
+    fechaI: "2023-01-01",
+    fechaF: "2023-03-01",
+    correo: "clienteJ@example.com",
+    contrato: "https://example.com/documentos/contrato10.pdf",
+  },
+  {
+    id: 11,
+    cliente: "Cliente K",
+    fechaI: "2022-12-15",
+    fechaF: "2023-02-15",
+    correo: "clienteK@example.com",
+    contrato: "https://example.com/documentos/contrato11.docx",
+  },
+  {
+    id: 12,
+    cliente: "Cliente L",
+    fechaI: "2022-11-10",
+    fechaF: "2023-01-10",
+    correo: "clienteL@example.com",
+    contrato: "https://example.com/documentos/contrato12.pdf",
+  },
+  {
+    id: 13,
+    cliente: "Cliente M",
+    fechaI: "2022-10-05",
+    fechaF: "2022-12-05",
+    correo: "clienteM@example.com",
+    contrato: "https://example.com/documentos/contrato13.docx",
+  },
+  {
+    id: 14,
+    cliente: "Cliente N",
+    fechaI: "2022-09-01",
+    fechaF: "2022-11-01",
+    correo: "clienteN@example.com",
+    contrato: "https://example.com/documentos/contrato14.pdf",
+  },
+  {
+    id: 15,
+    cliente: "Cliente O",
+    fechaI: "2022-08-15",
+    fechaF: "2022-10-15",
+    correo: "clienteO@example.com",
+    contrato: "https://example.com/documentos/contrato15.docx",
+  },
+  {
+    id: 16,
+    cliente: "Cliente P",
+    fechaI: "2022-07-10",
+    fechaF: "2022-09-10",
+    correo: "clienteP@example.com",
+    contrato: "https://example.com/documentos/contrato16.pdf",
+  },
+  {
+    id: 17,
+    cliente: "Cliente Q",
+    fechaI: "2022-06-05",
+    fechaF: "2022-08-05",
+    correo: "clienteQ@example.com",
+    contrato: "https://example.com/documentos/contrato17.docx",
+  },
+  {
+    id: 18,
+    cliente: "Cliente R",
+    fechaI: "2022-05-01",
+    fechaF: "2022-07-01",
+    correo: "clienteR@example.com",
+    contrato: "https://example.com/documentos/contrato18.pdf",
+  },
+  {
+    id: 19,
+    cliente: "Cliente S",
+    fechaI: "2022-04-15",
+    fechaF: "2022-06-15",
+    correo: "clienteS@example.com",
+    contrato: "https://example.com/documentos/contrato19.docx",
+  },
+  {
+    id: 20,
+    cliente: "Cliente T",
+    fechaI: "2022-03-10",
+    fechaF: "2022-05-10",
+    correo: "clienteT@example.com",
+    contrato: "https://example.com/documentos/contrato20.pdf",
+  },
+];
+
+export type { IContratos };
+export default contratos;
